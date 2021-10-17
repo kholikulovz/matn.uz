@@ -56,11 +56,11 @@ let alphabet = [
         id: 99,
     },
     {
-        letter : 'F',
+        letter : 'Ф',
         id: 70,
     },
     {
-        letter : 'f',
+        letter : 'ф',
         id: 102,
     },
     {
