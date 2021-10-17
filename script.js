@@ -10,7 +10,8 @@ input.addEventListener('keypress', function (e) {
     alphabet.forEach((letter) =>{
 
         if(letter.id == e.charCode){
-           trText.innerText +=  letter.letter
+           trText.textContent = trText.textContent +  letter.letter
+        //    console.log(letter.letter)
         }else{
             String.fromCharCode(e.charCode)
         }
