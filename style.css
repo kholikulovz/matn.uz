@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  #FFD845;
+}
+
+.container {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 689px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 320px;
+    margin: 10px;
+  }
+}
+.wrapper{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    width: 220px;
+    outline: none;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+.num{
+    margin: 5px 0;
+}
